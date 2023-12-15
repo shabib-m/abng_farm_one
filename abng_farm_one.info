@@ -1,0 +1,11 @@
+name = Abng Farm One
+description = قالب المزرعه tailwind css; a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+backdrop = 1.x
+type = theme
+stylesheets[all][] = css/tailwind.css
+stylesheets[all][] = css/style.css
+; stylesheets[all][] = css/glightbox.min.css
+; js
+scripts[] = js/scripts.js
+; scripts[] = js/glightbox.min.js
+

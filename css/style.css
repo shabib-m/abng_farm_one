@@ -1,0 +1,413 @@
+ 
+.l-header {
+	background: url('../images/palme-bg.png') no-repeat center center scroll;
+	/* height: 60vh; */
+	position: relative;
+}
+
+.bg-op {
+	background: linear-gradient(to right, rgba(32, 106, 93, 0.6), rgba(32, 106, 93, 0.7), rgba(32, 106, 93, 0.6));
+	display: grid;
+}
+.l-header-inner {
+	
+}
+.block-system-header {
+	background: #0080003d;
+}
+.site-name {
+	font-family: 'Marhey', sans-serif;
+	font-size: 2.50rem;
+}
+.abng-menu a {
+	padding: 5px 20px;
+	font-family: 'Tajawal', sans-serif;
+}
+.abng-menu a.active {
+	background: #81b214;
+	border-radius: 3px;
+}
+
+/*  */
+.block.block-views-block-slidshow-block .views-field-title {
+	font-size: 50px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.block.block-views-block-slidshow-block .views-field-body {
+	color: bisque;
+	font-weight: 700;
+	font-size: 18px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	margin: 15px 2px;
+}
+.block.block-views-block-slidshow-block .views-field-field-rabt-alslayd a {
+	display: inline-block;
+	padding: 10px 45px;
+    background-color: #81b214;
+	color: #ffffff;
+	border-radius: 10px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	border: none;
+	margin-top: 10px;
+	font-weight: 700;
+  font-size: 18px;
+}
+
+.flexslider {
+	background: unset;
+	border: unset;
+	border-radius: unset;
+	box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.flex-control-paging li a {
+	background-color: #fff;
+	background: rgb(240, 237, 237);
+	width: 14px;
+  height: 14px;
+}
+.flex-control-paging li a.flex-active {
+	background: #81b214;
+	background: rgba(129, 178, 20, 1);
+	cursor: default;
+	width: 20px;
+	height: 20px;
+}
+.flex-control-nav {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.flex-direction-nav a::before {
+	line-height: 1;
+}
+
+/*  */
+.section-header {
+	padding: 60px 0;
+}
+.section-header h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	color: #515151;
+	font-family: 'Marhey', sans-serif;
+}
+.section-header h2::before {
+	content: "";
+	position: absolute;
+	bottom: 16px;
+	width: 210px;
+	height: 14px;
+	transform: skew(-12deg) translateX(-15%);
+	background: rgb(129, 178, 20);
+	z-index: -1;
+}
+.section-header p {
+	margin-bottom: 0;
+	color: #888;
+	font-size: 18px;
+	line-height: 2;
+}
+/*  */
+.box {
+	position: relative;
+	margin-top: 25px;
+	padding: 15px;
+	border-radius: 10px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+	display: flow-root;
+	font-weight: 700;
+	font-family: 'Tajawal', sans-serif;
+}
+.box img,
+.view-sndwq-mmyzat-almzr-h img {
+	margin: 0 auto;
+}
+.box a {
+	color: #6f6f6f;
+}
+
+/*  */
+.view-block-products-farm {
+	text-align: center;
+}
+.view-block-products-farm .view-content {
+	text-align: center;
+}
+.view-block-products-farm .views-field-field-image {
+	border-bottom: 1px dashed #a6a6a6;
+	margin-bottom: 7px;
+}
+.view-block-products-farm .views-field-title {
+	float: right;
+}
+.view-block-products-farm .views-field-field-qsm-almntjat {
+	float: left;
+}
+
+/*  */
+.block-views-block-about-farm-block {
+	margin: 8rem 0;
+}
+.block-views-block-about-farm-block img {
+	border-radius: 3px 10px 10px 3px;
+	border: 1px solid #cacaca;
+	padding: 3px;
+	border-left: 7px solid #d9d9d9;
+	padding-left: 1px;
+}
+.view-block-about-farm h2 {
+	display: inline flow-root list-item;
+	list-style: none;
+}
+.view-block-about-farm h2::before {
+	width: 90%;
+}
+.view-block-about-farm p {
+	font-size: 19px;
+	color: #757575;
+}
+.view-block-about-farm .btn1  {
+	display: inline-block;
+	padding: 10px 45px;
+    background-color: #81b214;
+	color: #ffffff;
+	border-radius: 10px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	border: none;
+	margin-top: 25px;
+	font-weight: 700;
+  font-size: 18px;
+}
+
+/*  */
+.block-views-sndwq-mmyzat-almzr-h-block {
+	background: #f4f4f4;
+	padding: 25px;
+	position: sticky;
+}
+.view-sndwq-mmyzat-almzr-h {
+	text-align: center;
+}
+.view-sndwq-mmyzat-almzr-h h2{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	position: relative;
+	color: #515151;
+	font-family: 'Marhey', sans-serif;
+	display: inline flow-root list-item;
+    list-style: none;
+}
+.view-sndwq-mmyzat-almzr-h h2::before {
+	content: "";
+	position: absolute;
+	bottom: 16px;
+	width: 90%;
+	height: 8px;
+	transform: skew(-12deg) translateX(-15%);
+	background: rgb(129, 178, 20);
+	z-index: -1;
+}
+.view-sndwq-mmyzat-almzr-h p {
+	font-size: 19px;
+	color: #757575;
+}
+
+
+.img-box img {
+	max-width: 75px;
+	max-height: 75px;
+	-webkit-filter: invert(61%) sepia(77%) saturate(617%) hue-rotate(34deg) brightness(91%) contrast(84%);
+	filter: invert(61%) sepia(77%) saturate(617%) hue-rotate(34deg) brightness(91%) contrast(84%);
+}
+
+.l-footer {
+	background: #01796F;
+	padding: 25px 0;
+	color: white;
+	border-top: 4px solid #b9b9b9;
+}
+
+/*  */
+.block-block-sndwq-asfl-almwq h2 {
+	font-size: 1.5rem;
+	font-family: 'Marhey', sans-serif;
+	line-height: 1.75rem;
+	font-weight: 600;
+	text-shadow: 0 1px 0 rgba(53, 52, 52, 0.4);
+	padding: 20px 0 1px;
+	border-bottom: 2px white dotted;
+}
+.block-block-sndwq-asfl-almwq p {
+	color: #eaeaea;
+	font-size: 1.15rem;
+}
+/*  */
+.block-system-title h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #daffe0;
+	text-decoration-line: underline;
+	text-decoration-color: #65CEC2;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 18px;
+	text-decoration-style: wavy;
+	padding: 20px;
+}
+.breadcrumb {
+	padding: 1em;
+	margin: 0 auto;
+	display: flex;
+	font-size: 1.8rem;
+	color: wheat;
+}
+.breadcrumb ol {
+	margin: 0 auto;
+}
+
+
+/*  */
+.views-view-grid .views-row, .views-view-grid .views-grid-box {
+	border: unset;
+}
+.box-term {
+	width: 85%;
+	background: #f2f2f2;
+	padding: 5px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 1px solid #e3e3e3;
+	color: #4d4d4d;
+	text-align: center;
+	font-size: large;
+}
+.box-term img {
+	margin-bottom: 25px;
+}
+.link-term-date {
+    text-decoration: underline 2px;
+    text-decoration-color: #75ccb4;
+    text-underline-offset: 11px;
+    margin: 5px;
+}
+.link-term-title {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	position: relative;
+	display: inline flow-root list-item;
+	list-style-type: none;
+	margin: 20px auto;
+}
+.link-term-title a::before {
+	width: 28px;
+	height: 5px;
+	display: block;
+	content: "";
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	margin-left: -14px;
+	background-color: #b80000;
+}
+.link-term-title a::after {
+	width: 100px;
+	height: 1px;
+	display: block;
+	content: "";
+	position: relative;
+	margin-top: 15px;
+	background-color: #b80000;
+}
+
+/*  */
+.block-system-title-combo {
+	text-align: center;
+}
+.block-system-title-combo nav.tabs {
+	display: inline-block;
+	margin: 25px 0 0;
+}
+.block-system-title-combo ul.primary li {
+	margin: 0 15px;
+}
+.block-system-title-combo ul.primary li a {
+	border-radius: 40%;
+	margin: 0 15px;
+	background-color: #81B214;
+	color: #f0f0f0;
+	font-size: 17px;
+	font-weight: 700;
+	padding: .8rem 1em;
+}
+.block-system-title-combo h1 {
+	display: none;
+}
+
+/*  */
+.term-name-body {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.term-name-body .views-field-name {
+	font-size: 38px;
+	font-family: 'Baloo Bhaijaan 2', sans-serif;
+	display: inline-block;
+	position: relative;
+}
+.term-name-body a {
+	color: #5e5e5e;
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
+}
+.term-name-body a::before {
+	content: "";
+	position: absolute;
+	bottom: 16px;
+	width: 80%;
+	height: 8px;
+	transform: skew(-12deg) translateX(-15%);
+	background: rgb(129, 178, 20);
+	z-index: -1;
+}
+.term-name-body .views-field-description {
+	color: #757575;
+}
+
+/*  */
+.title-node .page-title {
+	color: #515151;
+	text-decoration-color: #ce7165;
+}
+article .field-name-body {
+	margin: 30px 5px;
+	line-height: 2;
+}
+.sidbar-node {
+	margin: 20px;
+}
+.sidbar-node .field-name-body {
+	line-height: 2;
+}
+main .block-field-node-body {
+	margin: 50px auto;
+	color: rgb(135, 134, 128);
+}
+.l-top .field-name-field-image img {
+	border-radius: 10px;
+}
